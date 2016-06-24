@@ -1,0 +1,101 @@
+#superfish-1 {
+	height: 40px;
+	line-height: 30px;
+	float: right;
+
+	li.sf-depth-1 {
+		padding: 5px 0;
+
+		a.sf-depth-1 {
+			padding: 5px .75em;
+			color: $teal;
+			text-decoration: none;
+			border-radius: $rad;
+
+			&:hover {
+				color: $orange;
+				text-decoration: underline;
+			}
+
+			&.active {
+				color: $orange;
+			}
+		}
+
+		&.active-trail a.sf-depth-1 {
+			background: transparent;
+		}
+
+		ul {
+			display: none!important;
+		}
+	}
+}
+
+#block-superfish-2 {
+	height: 24px;
+	line-height: 24px;
+	float: right;
+	margin-right: .5em;
+
+	li.sf-depth-1 {
+		padding: 0 1.25em;
+
+		a.sf-depth-1 {
+			padding: 0;
+			color: #999;
+			text-decoration: none;
+			background: url(../images/category_icons.png) 0 0 no-repeat;
+			overflow: hidden;
+			height: 24px;
+			line-height: 24px;
+			width: 20px;
+			text-indent: 200px;
+
+			&:hover,
+			&.active {
+				background-position: 0 -299px;
+			}
+		}
+
+		&:nth-child(2) a {
+			background-position: -69px -56px;
+			width: 27px;
+
+			&:hover,
+			&.active {
+				background-position: -69px -355px;
+			}
+		}
+
+		&:nth-child(3) a {
+			background-position: -145px -119px;
+			width: 24px;
+
+			&:hover,
+			&.active {
+				background-position: -145px -418px;
+			}
+		}
+
+		&:nth-child(4) a {
+			background-position: -210px -175px;
+			width: 43px;
+
+			&:hover,
+			&.active {
+				background-position: -210px -474px;
+			}
+		}
+
+		&:nth-child(5) a {
+			background-position: -284px -233px;
+			width: 21px;
+
+			&:hover,
+			&.active {
+				background-position: -284px -524px;
+			}
+		}
+	}
+}

@@ -1,0 +1,170 @@
+// Styles for base page layout
+.l-page {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.l-main {
+	clear: both;
+	padding: 0 2em;
+}
+
+.l-content {
+	.block,
+	.view {
+		margin-bottom: 1em;
+	}
+}
+
+.l-region--sidebar-first,
+.l-region--sidebar-second,
+.l-content {
+	margin-top: 2em;
+}
+
+.l-region--sidebar-first,
+.l-region--sidebar-second {
+	.block {
+		margin-bottom: 1.5em;
+		padding-bottom: 1.5em;
+		border-bottom: 1px dashed #ccc;
+
+		* > :first-child {
+			margin-top: 0;
+		}
+
+		* > :last-child {
+			margin-bottom: 0;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+			padding-bottom: 0;
+			border-bottom: 0;
+		}
+	}
+}
+
+.l-region--catnav {
+	display: none;
+}
+
+.l-region--sidebar-second {
+	border: 10px solid #eee;
+	padding: 1em;
+}
+
+// Phab -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($phab, true) {
+	.two-sidebars {
+		.l-region--sidebar-first {
+			@include grid-span(6, 1);
+		}
+
+		.l-region--sidebar-second {
+			@include grid-span(6, 7);
+		}
+	}
+}
+	
+// Tab --------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($tab, true) {
+
+	.two-sidebars {
+		.l-content {
+			@include grid-span(8, 5);
+		}
+
+		.l-region--sidebar-first {
+			@include grid-span(4, 1);
+		}
+
+		.l-region--sidebar-second {
+			@include grid-span(4, 1);
+			clear: left;
+		}
+	}
+
+	.sidebar-first {
+		.l-content {
+			@include grid-span(8, 5);
+		}
+
+		.l-region--sidebar-first {
+			@include grid-span(4, 1);
+		}
+	}
+
+	.sidebar-second {
+		.l-content {
+			@include grid-span(8, 1);
+		}
+
+		.l-region--sidebar-second {
+			@include grid-span(4, 9);
+		}
+	}
+
+	.l-region--catnav {
+		display: block;
+		margin: -1em 0 1em;
+	}
+}
+
+// Desk -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($desk, true) {
+
+	.two-sidebars {
+		.l-content {
+			@include grid-span(6, 4);
+		}
+
+		.l-region--sidebar-first {
+			@include grid-span(3, 1);
+		}
+
+		.l-region--sidebar-second {
+			@include grid-span(3, 10);
+			clear: none;
+		}
+	}
+
+	.sidebar-first {
+		.l-content {
+			@include grid-span(8, 5);
+		}
+
+		.l-region--sidebar-first {
+			@include grid-span(4, 1);
+		}
+	}
+	
+	.sidebar-second {
+		.l-content {
+			@include grid-span(8, 1);
+		}
+
+		.l-region--sidebar-second {
+			@include grid-span(4, 9);
+		}
+	}
+
+	.l-region--catnav {
+		float: left;
+		margin-top: 13px;
+		padding-left: 1em;
+	}
+}
+
+// Wide -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($wide, true) {
+	.section-inner {
+		margin: 0 auto;
+		max-width: $wide;
+	}
+}

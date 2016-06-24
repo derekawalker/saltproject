@@ -1,0 +1,21 @@
+.search-block-form {
+	position: relative;
+
+	.form-item {
+		input[type="text"] {
+			width: 100%;
+		}
+	}
+
+	.form-actions {
+		position: absolute;
+		top: .25em;
+		right: 4px;
+
+		input[type="submit"] {
+			padding: .5em .6em;
+			width: 100%;
+		}
+	}
+
+}

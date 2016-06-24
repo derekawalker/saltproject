@@ -1,0 +1,19 @@
+#block-views-instagrams-block-1 {
+	.views-row {
+		float: left;
+		width: 33.3333%;
+
+		a {
+			border: 1px solid #999;
+			display: block;
+
+			&:hover {
+				border-color: $orange;
+			}
+		}
+
+		img {
+			display: block;
+		}
+	}
+}

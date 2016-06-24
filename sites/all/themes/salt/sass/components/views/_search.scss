@@ -1,0 +1,14 @@
+.page-search {
+	.node-teaser {
+		border-top: 1px dashed #ccc;
+		padding: 1em 0 0 0;
+		margin: 1em 0 0 0;
+		clear: both;
+
+		.field--name-field-featured-image {
+			float: left;
+			margin: .25em 1em 0 0;
+			max-width: 35%;
+		}
+	}
+}

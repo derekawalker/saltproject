@@ -1,0 +1,138 @@
+.view-blog {
+	.views-row {
+		margin-bottom: 1em;
+	}
+
+	.views-field-field-post-date {
+		text-align: center;
+		font-family: $headerfont;
+		color: #999;
+		margin-bottom: .5em;
+	}
+
+	.views-field-field-featured-image {
+		margin-bottom: .25em;
+
+		img {
+			display: block;
+			box-shadow: 0 0 3px rgba(0, 0, 0, .25);
+		}
+	}
+
+	.views-field-title {
+		font-size: 1.5em;
+		line-height: $headerlineheight;
+		font-weight: 300;
+		font-family: $headerfont;
+
+		a {
+			text-decoration: none;
+			color: #000;
+			display: inline-block;
+			padding: 0;
+			margin: 0;
+		}
+	}
+
+	.button a {
+		display: block;
+		width: 100%;
+	}
+}
+
+.view-display-id-block_2,
+.view-display-id-block_3 {
+	.views-row {
+		float: left;
+		width: 32%;
+		margin-right: 2%;
+
+		&.views-row-3 {
+			margin-right: 0;
+		}
+
+		&.views-row-4 {
+			clear: both;
+		}
+
+		&.views-row-last {
+			margin-right: 0;
+		}
+	}
+
+	.views-field-title {
+		font-size: 1em;
+		line-height: $headerlineheight;
+		text-align: left;
+		background: none;
+
+		a {
+			padding-left: 0;
+			margin-left: 0;
+		}
+	}
+
+	.views-field-field-featured-image {
+		img {
+			width: 100%;
+		}
+	}
+}
+
+// Phab -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($phab, true) {
+	.view-blog {
+		.views-row {
+			margin-bottom: 1em;
+		}
+	}
+
+	.block--views-blog-block-1 {
+		.views-row {
+			width: 46%;
+			float: left;
+			margin: 2%;
+
+			.views-field-title {
+				font-size: 1.4em;
+				line-height: $headerlineheight;
+			}
+		}
+	}
+}
+
+// Desk -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($desk, true) {
+	.view-display-id-block_2,
+	.view-display-id-block_3 { 
+		.views-row {
+			width: 15%;
+
+			&.views-row-3 {
+				margin-right: 2%;
+			}
+
+			&.views-row-4 {
+				clear: none;
+			}
+		}
+	}
+}
+
+// Wide -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($wide, true) {
+	.block--views-blog-block-1 {
+		.views-row {
+			width: 30%;
+			margin: 1.666666%;
+
+			.views-field-title {
+				font-size: 1.3em;
+				line-height: $headerlineheight;
+			}
+		}
+	}
+}

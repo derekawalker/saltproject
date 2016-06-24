@@ -1,0 +1,32 @@
+.location.vcard {
+	margin: 1em 0;
+	background: url(../images/location_icon.png) center 0 no-repeat;
+	min-height: 64px;
+	padding-top: 75px;
+	text-align: center;
+
+	.fn {
+		font-size: 1.5em;
+		font-family: $headerfont;
+	}
+
+	.street-address {
+		line-height: 1em;
+	}
+}
+
+// Phab -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($phab, true) {
+	.location.vcard {
+		padding-left: 75px;
+		padding-top: 8px;
+		text-align: left;
+		background-position: 0 0;
+
+		.fn {
+			font-size: 1.5em;
+			font-family: $headerfont;
+		}
+	}
+}

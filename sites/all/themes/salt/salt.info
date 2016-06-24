@@ -1,0 +1,33 @@
+name = salt
+description = On Omega 4 subtheme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/salt.normalize.css
+stylesheets[all][] = css/salt.hacks.css
+stylesheets[all][] = css/salt.styles.css
+stylesheets[all][] = css/salt.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/salt.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[branding] = Branding
+regions[catnav] = Category Navigation
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer] = Footer

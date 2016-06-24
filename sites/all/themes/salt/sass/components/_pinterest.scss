@@ -1,0 +1,16 @@
+.pinit-hover {
+	position: relative;
+}
+
+.pinit-img {
+	display: none;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+
+	a {
+		display: block;
+		width: 32px;
+		height: 32px;
+	}
+}

@@ -1,0 +1,54 @@
+.tabs {
+	border: 0;
+	border-radius: 5px;
+	overflow: hidden;
+	background: #f6f6f4;
+	padding: 3px;
+	font-size: 11px;
+	line-height: 1em;
+	text-transform: uppercase;
+
+	li {
+		float: none;
+		margin: 0 0 3px;
+		background: 0;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	a {
+		background: 0;
+		border-radius: 5px;
+		padding: 7px 12px;
+
+		&.active {
+			background: rgba(0, 0, 0, .25);
+			color: #fff;
+
+			&:hover {
+				background: rgba(0, 0, 0, .35);
+			}
+		}
+
+		&:hover {
+			background: rgba(0, 0, 0, .05);
+		}
+	}
+}
+
+@include breakpoint($phab, true) {
+	.tabs {
+		li {
+			float: left;
+			margin: 0 3px 0 0;
+		}
+
+		a {
+			background: 0;
+			border-radius: 5px;
+			padding: 5px 8px;
+		}
+	}
+}

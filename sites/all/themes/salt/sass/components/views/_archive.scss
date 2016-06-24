@@ -1,0 +1,22 @@
+.view-archive {
+	.views-summary {
+		font-family: $headerfont;
+		padding: 0 1em 0 0;
+		background: #f6f6f4;
+		border-radius: $rad;
+		color: #999;
+		font-size: .8em;
+		margin-bottom: 3px;
+
+		a {
+			text-decoration: none;
+			font-size: 1.2em;
+			display: inline-block;
+			padding: .75em 0 .75em 1em;
+		}
+
+		&:hover {
+			background: #fdf4f0;
+		}
+	}
+}

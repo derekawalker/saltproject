@@ -1,0 +1,94 @@
+.view-shop {
+  margin: 1em -10px;
+
+  .masonry-item {
+    width: 100%;
+    border: 10px solid #fff;
+
+    .card-shop {
+      position: relative;
+
+      &:hover {
+        .card-shop-overlay {
+          opacity: 1;
+          transition: opacity .5s ease-in-out;
+        }
+
+        .card-shop-image {
+          img {
+            transform: scale(1.02);
+            transition: all .2s ease-in-out;
+          }
+        }
+      }
+    }
+
+    .card-shop-title {
+      color: #fff;
+      margin-bottom: 1em;
+      font-size: 1.1em;
+      line-height: 1.4;
+    }
+
+    .card-shop-image {
+      overflow: hidden;
+      position: relative;
+      z-index: 1;
+
+      img {
+        transition: all .2s ease-in-out;
+        transform: scale(1);
+        display: block;
+      }
+    }
+
+    .card-shop-overlay {
+      z-index: 2;
+      background: rgba(0, 0, 0,.8);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      padding: 2em;
+      opacity: 0;
+      transition: opacity .5s ease-in-out;
+
+      a {
+        text-decoration: none;
+        display: inline-block;
+        padding: .5em 1.5em;
+        border: 1px solid $teal;
+
+        &:hover {
+          border-color: $orange;
+        }
+      }
+    }
+  }
+}
+
+
+
+// Phab -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($phab, true) {
+  .view-shop {
+    .masonry-item {
+      width: 49%;
+    }
+  }
+}
+
+// Desk -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($desk, true) {
+
+}
+
+// Wide -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($wide, true) {
+
+}

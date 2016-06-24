@@ -1,0 +1,87 @@
+html {
+	font-size: $basetextsize;
+	line-height: $baselineheight;
+	font-family: $bodyfont;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: $headerlineheight;
+	font-family: $headerfont;
+	font-weight: 300;
+	margin: 0 0 .5em 0;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+h4 {
+	font-size: 1.4em;
+}
+
+h5 {
+	font-size: 1.2em;
+}
+
+h6 {
+	font-size: 1.1em;
+}
+
+.field--name-title h2 {
+	color: $orange;
+	margin-bottom: 0;
+
+	a {
+		color: $orange;
+		text-decoration: none;
+	}
+}
+
+// Phab -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($phab, true) {
+	html {
+		font-size: $basetextsize;
+		line-height: $baselineheight;
+	}
+}
+
+// Tab --------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($tab, true) {
+	html {
+		font-size: 14px;
+		line-height: $baselineheight;
+	}
+}
+
+// Desk -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($desk, true) {
+	html {
+		font-size: 15px;
+		line-height: $baselineheight;
+	}
+}
+
+// Wide -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($wide, true) {
+	html {
+		font-size: 16px;
+		line-height: $baselineheight;
+	}
+}

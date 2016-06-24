@@ -1,0 +1,176 @@
+.node-type-post,
+.block--views-blog-block {
+	.node-title {
+		display: none;
+	}
+
+	.field--name-field-featured-image {
+		img {
+			width: 100%;
+		}
+	}
+
+	.field--name-field-post-date {
+		color: #777;
+		font-family: $headerfont;
+		font-weight: 300;
+		font-size: .8em;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+		padding: .25em 0 .5em;
+
+		span {
+			background: #fff;
+			padding: 0 1em 0 0;
+		}
+	}
+
+	.field--name-field-location {
+		padding: 1em 0;
+		border-top: 1px dashed #ccc;
+		border-bottom: 1px dashed #ccc;
+	}
+
+	.field--name-body .field__item p picture img {
+		width: 100%;
+	}
+
+	.field--name-body .field__item picture img {
+		display: block;
+		width: 100%;
+	}
+
+	.field--name-body .field__item {
+		div  {
+			picture {
+				img {
+					margin-bottom: 1em;
+				}
+
+				&:nth-child(2) img {
+					margin: 0;
+				}
+			}
+		}
+	}
+
+	.field--name-field-signature {
+		font-family: $signature;
+		font-size: 3em;
+		margin-bottom: 2em;
+		margin-top: .5em;
+
+		&:before {
+			content: '- ';
+			display: inline-block;
+	    float: left;
+	    margin-right: .25em;
+		}
+	}
+
+	.field-group-div {
+		margin: 1em 0;
+		padding: 1em 0;
+		border-top: 1px dashed #ccc;
+		border-bottom: 1px dashed #ccc;
+
+		h3 {
+			color: $orange;
+		}
+	}
+
+	.field__label {
+		margin-top: .5em;
+	}
+
+	.field--label-inline {
+		.field__item {
+			margin-top: .5em;
+		}
+	}
+
+	.field--name-field-hours,
+	.field--name-field-entrance-fee-s- {
+
+		.field__item {
+			padding-left: .75em;
+			margin-bottom: .25em;
+			line-height: 1.3em;
+			position: relative;
+
+			&:before {
+				content: "\2022";
+				color: $orange;
+				position: absolute;
+				left: 0;
+			}
+		}
+	}
+
+	.field--name-field-what-to-bring {
+		.field__item {
+			> *:first-child {
+				margin-top: 0;
+			}
+
+			> *:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+// Phab -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($phab, true) {
+	.node-type-post,
+	.block--views-blog-block {
+		.field--name-field-location {
+			@include grid-span(6, 7);
+			padding: 0;
+			border: 0;
+		}
+
+		.field--name-body .field__item {
+			div {
+				margin: 1em 0;
+
+				&:before,
+				&:after {
+				    content: " ";
+				    display: table;
+				}
+
+				&:after {
+				    clear: both;
+				}
+
+				picture,
+				a {
+					width: 49%;
+					margin-right: 2%;
+					float: left;
+					margin-bottom: 0;
+
+					picture {
+						width: 100%;
+					}
+				}
+
+				picture {
+					img {
+						margin-bottom: 0;
+					}
+				}
+
+				> *:nth-child(2) {
+					margin-right: 0;
+				}
+			}
+		}
+
+		.social-share {
+			@include grid-span(6, 1);
+		}
+	}
+}

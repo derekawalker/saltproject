@@ -1,0 +1,1530 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\000032}}
+.l-page {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\000038}}
+.l-main {
+  clear: both;
+  padding: 0 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\0000314}}
+.l-content .block,
+.l-content .view {
+  margin-bottom: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\0000320}}
+.l-region--sidebar-first,
+.l-region--sidebar-second,
+.l-content {
+  margin-top: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\0000328}}
+.l-region--sidebar-first .block,
+.l-region--sidebar-second .block {
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px dashed #ccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\0000333}}
+  .l-region--sidebar-first .block * > :first-child,
+  .l-region--sidebar-second .block * > :first-child {
+    margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\0000337}}
+  .l-region--sidebar-first .block * > :last-child,
+  .l-region--sidebar-second .block * > :last-child {
+    margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\0000341}}
+  .l-region--sidebar-first .block:last-child,
+  .l-region--sidebar-second .block:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\0000349}}
+.l-region--catnav {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\0000353}}
+.l-region--sidebar-second {
+  border: 10px solid #eee;
+  padding: 1em; }
+
+@media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\0000362}}
+  .two-sidebars .l-region--sidebar-first {
+    width: 47.82609%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\0000366}}
+  .two-sidebars .l-region--sidebar-second {
+    width: 47.82609%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; } }
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\0000377}}
+  .two-sidebars .l-content {
+    width: 65.21739%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\0000381}}
+  .two-sidebars .l-region--sidebar-first {
+    width: 30.43478%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\0000385}}
+  .two-sidebars .l-region--sidebar-second {
+    width: 30.43478%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+    clear: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\0000392}}
+  .sidebar-first .l-content {
+    width: 65.21739%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\0000396}}
+  .sidebar-first .l-region--sidebar-first {
+    width: 30.43478%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\00003102}}
+  .sidebar-second .l-content {
+    width: 65.21739%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\00003106}}
+  .sidebar-second .l-region--sidebar-second {
+    width: 30.43478%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\00003111}}
+  .l-region--catnav {
+    display: block;
+    margin: -1em 0 1em; } }
+@media (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\00003122}}
+  .two-sidebars .l-content {
+    width: 47.82609%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 26.08696%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\00003126}}
+  .two-sidebars .l-region--sidebar-first {
+    width: 21.73913%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\00003130}}
+  .two-sidebars .l-region--sidebar-second {
+    width: 21.73913%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\00003137}}
+  .sidebar-first .l-content {
+    width: 65.21739%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\00003141}}
+  .sidebar-first .l-region--sidebar-first {
+    width: 30.43478%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\00003147}}
+  .sidebar-second .l-content {
+    width: 65.21739%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\00003151}}
+  .sidebar-second .l-region--sidebar-second {
+    width: 30.43478%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\00003156}}
+  .l-region--catnav {
+    float: left;
+    margin-top: 13px;
+    padding-left: 1em; } }
+@media (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/_page\.scss}line{font-family:\00003166}}
+  .section-inner {
+    margin: 0 auto;
+    max-width: 1024px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_page\.scss}line{font-family:\000033}}
+.node-type-page.front .node-title {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\000033}}
+.node-type-post .node-title,
+.block--views-blog-block .node-title {
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\000038}}
+.node-type-post .field--name-field-featured-image img,
+.block--views-blog-block .field--name-field-featured-image img {
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\0000313}}
+.node-type-post .field--name-field-post-date,
+.block--views-blog-block .field--name-field-post-date {
+  color: #777;
+  font-family: Lato, Arial, sans-serif;
+  font-weight: 300;
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  padding: .25em 0 .5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\0000322}}
+  .node-type-post .field--name-field-post-date span,
+  .block--views-blog-block .field--name-field-post-date span {
+    background: #fff;
+    padding: 0 1em 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\0000328}}
+.node-type-post .field--name-field-location,
+.block--views-blog-block .field--name-field-location {
+  padding: 1em 0;
+  border-top: 1px dashed #ccc;
+  border-bottom: 1px dashed #ccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\0000334}}
+.node-type-post .field--name-body .field__item p picture img,
+.block--views-blog-block .field--name-body .field__item p picture img {
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\0000338}}
+.node-type-post .field--name-body .field__item picture img,
+.block--views-blog-block .field--name-body .field__item picture img {
+  display: block;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\0000346}}
+.node-type-post .field--name-body .field__item div picture img,
+.block--views-blog-block .field--name-body .field__item div picture img {
+  margin-bottom: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\0000350}}
+.node-type-post .field--name-body .field__item div picture:nth-child(2) img,
+.block--views-blog-block .field--name-body .field__item div picture:nth-child(2) img {
+  margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\0000357}}
+.node-type-post .field--name-field-signature,
+.block--views-blog-block .field--name-field-signature {
+  font-family: "Waiting for the Sunrise", cursive;
+  font-size: 3em;
+  margin-bottom: 2em;
+  margin-top: .5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\0000363}}
+  .node-type-post .field--name-field-signature:before,
+  .block--views-blog-block .field--name-field-signature:before {
+    content: '- ';
+    display: inline-block;
+    float: left;
+    margin-right: .25em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\0000371}}
+.node-type-post .field-group-div,
+.block--views-blog-block .field-group-div {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-top: 1px dashed #ccc;
+  border-bottom: 1px dashed #ccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\0000377}}
+  .node-type-post .field-group-div h3,
+  .block--views-blog-block .field-group-div h3 {
+    color: #f76640; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\0000382}}
+.node-type-post .field__label,
+.block--views-blog-block .field__label {
+  margin-top: .5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\0000387}}
+.node-type-post .field--label-inline .field__item,
+.block--views-blog-block .field--label-inline .field__item {
+  margin-top: .5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\0000395}}
+.node-type-post .field--name-field-hours .field__item,
+.node-type-post .field--name-field-entrance-fee-s- .field__item,
+.block--views-blog-block .field--name-field-hours .field__item,
+.block--views-blog-block .field--name-field-entrance-fee-s- .field__item {
+  padding-left: .75em;
+  margin-bottom: .25em;
+  line-height: 1.3em;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\00003101}}
+  .node-type-post .field--name-field-hours .field__item:before,
+  .node-type-post .field--name-field-entrance-fee-s- .field__item:before,
+  .block--views-blog-block .field--name-field-hours .field__item:before,
+  .block--views-blog-block .field--name-field-entrance-fee-s- .field__item:before {
+    content: "\2022";
+    color: #f76640;
+    position: absolute;
+    left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\00003112}}
+.node-type-post .field--name-field-what-to-bring .field__item > *:first-child,
+.block--views-blog-block .field--name-field-what-to-bring .field__item > *:first-child {
+  margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\00003116}}
+.node-type-post .field--name-field-what-to-bring .field__item > *:last-child,
+.block--views-blog-block .field--name-field-what-to-bring .field__item > *:last-child {
+  margin-bottom: 0; }
+
+@media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\00003128}}
+  .node-type-post .field--name-field-location,
+  .block--views-blog-block .field--name-field-location {
+    width: 47.82609%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    padding: 0;
+    border: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\00003135}}
+  .node-type-post .field--name-body .field__item div,
+  .block--views-blog-block .field--name-body .field__item div {
+    margin: 1em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\00003138}}
+    .node-type-post .field--name-body .field__item div:before, .node-type-post .field--name-body .field__item div:after,
+    .block--views-blog-block .field--name-body .field__item div:before,
+    .block--views-blog-block .field--name-body .field__item div:after {
+      content: " ";
+      display: table; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\00003144}}
+    .node-type-post .field--name-body .field__item div:after,
+    .block--views-blog-block .field--name-body .field__item div:after {
+      clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\00003148}}
+    .node-type-post .field--name-body .field__item div picture,
+    .node-type-post .field--name-body .field__item div a,
+    .block--views-blog-block .field--name-body .field__item div picture,
+    .block--views-blog-block .field--name-body .field__item div a {
+      width: 49%;
+      margin-right: 2%;
+      float: left;
+      margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\00003155}}
+      .node-type-post .field--name-body .field__item div picture picture,
+      .node-type-post .field--name-body .field__item div a picture,
+      .block--views-blog-block .field--name-body .field__item div picture picture,
+      .block--views-blog-block .field--name-body .field__item div a picture {
+        width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\00003161}}
+    .node-type-post .field--name-body .field__item div picture img,
+    .block--views-blog-block .field--name-body .field__item div picture img {
+      margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\00003166}}
+    .node-type-post .field--name-body .field__item div > *:nth-child(2),
+    .block--views-blog-block .field--name-body .field__item div > *:nth-child(2) {
+      margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/layout\/nodes\/_post\.scss}line{font-family:\00003172}}
+  .node-type-post .social-share,
+  .block--views-blog-block .social-share {
+    width: 47.82609%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_base\.scss}line{font-family:\000031}}
+html {
+  box-sizing: border-box;
+  color: #222;
+  -webkit-text-size-adjust: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_base\.scss}line{font-family:\000037}}
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_base\.scss}line{font-family:\0000313}}
+.group:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_base\.scss}line{font-family:\0000319}}
+a,
+a:visited {
+  color: #1aa489; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_base\.scss}line{font-family:\0000323}}
+  a:hover,
+  a:visited:hover {
+    color: #f76640; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_base\.scss}line{font-family:\0000328}}
+a.button,
+.button a {
+  display: block;
+  padding: 1em;
+  text-align: center;
+  color: #fff;
+  background: #f2b8b8;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 1em;
+  margin: 1em .25em .5em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_base\.scss}line{font-family:\0000340}}
+  a.button:hover,
+  .button a:hover {
+    background: #cbdddd;
+    color: #fff; }
+
+@media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_base\.scss}line{font-family:\0000350}}
+  a.button,
+  .button a {
+    display: inline-block;
+    width: auto;
+    padding: .5em 2em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_forms\.scss}line{font-family:\000032}}
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="tel"] {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  padding: .5em .75em;
+  font-size: 1.4em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_forms\.scss}line{font-family:\0000315}}
+input[type="submit"], input[type="button"] {
+  border: 0;
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  padding: 1em;
+  text-align: center;
+  color: #fff;
+  background: #f2b8b8;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 1.25em;
+  margin: 1em .25em .5em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_forms\.scss}line{font-family:\0000330}}
+  input[type="submit"]:hover, input[type="button"]:hover {
+    background: #cbdddd;
+    color: #fff;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.15); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_forms\.scss}line{font-family:\0000339}}
+textarea {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_forms\.scss}line{font-family:\0000345}}
+select {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_forms\.scss}line{font-family:\0000351}}
+.grippie {
+  display: none; }
+
+@media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_forms\.scss}line{font-family:\0000360}}
+  input[type="submit"], input[type="button"] {
+    width: auto;
+    display: inline-block;
+    padding: .5em 2em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_media\.scss}line{font-family:\000031}}
+img,
+media {
+  max-width: 100%;
+  height: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_typography\.scss}line{font-family:\000031}}
+html {
+  font-size: 14px;
+  line-height: 1.5em;
+  font-family: Open Sans, Arial, sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_typography\.scss}line{font-family:\000037}}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2em;
+  font-family: Lato, Arial, sans-serif;
+  font-weight: 300;
+  margin: 0 0 .5em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_typography\.scss}line{font-family:\0000319}}
+h1 {
+  font-size: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_typography\.scss}line{font-family:\0000323}}
+h2 {
+  font-size: 1.8em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_typography\.scss}line{font-family:\0000327}}
+h3 {
+  font-size: 1.6em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_typography\.scss}line{font-family:\0000331}}
+h4 {
+  font-size: 1.4em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_typography\.scss}line{font-family:\0000335}}
+h5 {
+  font-size: 1.2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_typography\.scss}line{font-family:\0000339}}
+h6 {
+  font-size: 1.1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_typography\.scss}line{font-family:\0000343}}
+.field--name-title h2 {
+  color: #f76640;
+  margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_typography\.scss}line{font-family:\0000347}}
+  .field--name-title h2 a {
+    color: #f76640;
+    text-decoration: none; }
+
+@media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_typography\.scss}line{font-family:\0000356}}
+  html {
+    font-size: 14px;
+    line-height: 1.5em; } }
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_typography\.scss}line{font-family:\0000365}}
+  html {
+    font-size: 14px;
+    line-height: 1.5em; } }
+@media (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_typography\.scss}line{font-family:\0000374}}
+  html {
+    font-size: 15px;
+    line-height: 1.5em; } }
+@media (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_typography\.scss}line{font-family:\0000383}}
+  html {
+    font-size: 16px;
+    line-height: 1.5em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_views\.scss}line{font-family:\000031}}
+.views-row {
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_views\.scss}line{font-family:\000034}}
+.views-field-edit-node {
+  position: absolute;
+  right: 2em;
+  top: 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_views\.scss}line{font-family:\000039}}
+  .views-field-edit-node a {
+    display: block;
+    padding: .25em .75em;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.85);
+    color: red;
+    text-decoration: none;
+    font-size: 11px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/base\/_views\.scss}line{font-family:\0000319}}
+    .views-field-edit-node a:hover {
+      box-shadow: 0;
+      color: #666; }
+
+/* No files to import found in components/**\/* */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/_three_col_stacked\.scss}line{font-family:\000031}}
+.ds-3col-stacked-fluid.group-two-sidebars > .group-middle,
+.ds-3col-stacked-fluid.group-one-sidebar > .group-middle,
+.ds-3col-stacked-fluid > .group-middle {
+  width: 100%;
+  float: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/_three_col_stacked\.scss}line{font-family:\000038}}
+.ds-3col-stacked-fluid > .group-left {
+  width: 100%;
+  float: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/_three_col_stacked\.scss}line{font-family:\0000313}}
+.ds-3col-stacked-fluid > .group-right {
+  width: 100%;
+  float: none; }
+
+@media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/_three_col_stacked\.scss}line{font-family:\0000323}}
+  .ds-3col-stacked-fluid.group-two-sidebars > .group-left {
+    width: 47.82609%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/_three_col_stacked\.scss}line{font-family:\0000327}}
+  .ds-3col-stacked-fluid.group-two-sidebars > .group-right {
+    width: 47.82609%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; } }
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/_three_col_stacked\.scss}line{font-family:\0000338}}
+  .ds-3col-stacked-fluid.group-two-sidebars > .group-middle {
+    width: 65.21739%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/_three_col_stacked\.scss}line{font-family:\0000342}}
+  .ds-3col-stacked-fluid.group-two-sidebars > .group-left {
+    width: 30.43478%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/_three_col_stacked\.scss}line{font-family:\0000346}}
+  .ds-3col-stacked-fluid.group-two-sidebars > .group-right {
+    width: 30.43478%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+    clear: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/_three_col_stacked\.scss}line{font-family:\0000353}}
+  .ds-3col-stacked-fluid.group-one-sidebar.group-sidebar-left > .group-middle {
+    width: 65.21739%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/_three_col_stacked\.scss}line{font-family:\0000357}}
+  .ds-3col-stacked-fluid.group-one-sidebar.group-sidebar-left > .group-left {
+    width: 30.43478%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+    clear: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/_three_col_stacked\.scss}line{font-family:\0000364}}
+  .ds-3col-stacked-fluid.group-one-sidebar.group-sidebar-right > .group-middle {
+    width: 65.21739%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/_three_col_stacked\.scss}line{font-family:\0000368}}
+  .ds-3col-stacked-fluid.group-one-sidebar.group-sidebar-right > .group-right {
+    width: 30.43478%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    clear: none; } }
+@media (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/_three_col_stacked\.scss}line{font-family:\0000380}}
+  .ds-3col-stacked-fluid.group-two-sidebars > .group-middle {
+    width: 47.82609%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 26.08696%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/_three_col_stacked\.scss}line{font-family:\0000384}}
+  .ds-3col-stacked-fluid.group-two-sidebars > .group-left {
+    width: 21.73913%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/_three_col_stacked\.scss}line{font-family:\0000388}}
+  .ds-3col-stacked-fluid.group-two-sidebars > .group-right {
+    width: 21.73913%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    clear: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_comments\.scss}line{font-family:\000031}}
+.comment-wrapper {
+  background: #e3eded;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 3px;
+  clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_comments\.scss}line{font-family:\000038}}
+  .comment-wrapper .comment-form {
+    background: #fff;
+    padding: 1em;
+    border-radius: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_comments\.scss}line{font-family:\0000314}}
+  .comment-wrapper .form-actions {
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_comments\.scss}line{font-family:\0000318}}
+  .comment-wrapper submit {
+    margin-bottom: 0;
+    margin-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_comments\.scss}line{font-family:\0000324}}
+.comment,
+.comment--by-viewer {
+  background: #fff;
+  padding: 1em;
+  border-radius: 3px;
+  margin-bottom: 1em;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_comments\.scss}line{font-family:\0000332}}
+  .comment .group-header,
+  .comment--by-viewer .group-header {
+    font-family: Lato, Arial, sans-serif;
+    font-size: 1.2em;
+    border-bottom: 1px dashed #ccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_comments\.scss}line{font-family:\0000337}}
+    .comment .group-header > span,
+    .comment .group-header > a,
+    .comment--by-viewer .group-header > span,
+    .comment--by-viewer .group-header > a {
+      float: left;
+      margin-right: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_comments\.scss}line{font-family:\0000344}}
+  .comment .field--name-post-date,
+  .comment--by-viewer .field--name-post-date {
+    display: inline;
+    color: #ccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_comments\.scss}line{font-family:\0000349}}
+  .comment .field--name-comment-body,
+  .comment--by-viewer .field--name-comment-body {
+    padding: 1em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_comments\.scss}line{font-family:\0000353}}
+  .comment .links,
+  .comment--by-viewer .links {
+    text-align: right;
+    float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_comments\.scss}line{font-family:\0000361}}
+.indented .comment,
+.indented .comment-by-viewer {
+  margin: -.9em 0 1em;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_comments\.scss}line{font-family:\0000368}}
+.comments__form-title,
+.comments__title {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_flippy\.scss}line{font-family:\000031}}
+.flippy {
+  clear: both;
+  padding: 0;
+  margin: 0;
+  background: #F0F6F6;
+  font-weight: 300;
+  border-radius: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_flippy\.scss}line{font-family:\000039}}
+  .flippy:before, .flippy:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_flippy\.scss}line{font-family:\0000315}}
+  .flippy:after {
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_flippy\.scss}line{font-family:\0000319}}
+  .flippy li {
+    display: block;
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_flippy\.scss}line{font-family:\0000323}}
+    .flippy li a {
+      text-decoration: none;
+      font-size: 2em;
+      font-family: Lato, Arial, sans-serif;
+      line-height: 1em;
+      padding: .25em;
+      display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_flippy\.scss}line{font-family:\0000332}}
+    .flippy li.next {
+      float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_flippy\.scss}line{font-family:\0000338}}
+.front .view-blog .more-link {
+  clear: both;
+  padding: 10px;
+  margin: 0;
+  background: #F0F6F6;
+  font-weight: 300;
+  border-radius: 3px;
+  text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_flippy\.scss}line{font-family:\0000347}}
+  .front .view-blog .more-link:before, .front .view-blog .more-link:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_flippy\.scss}line{font-family:\0000352}}
+  .front .view-blog .more-link a {
+    text-decoration: none;
+    font-size: 2em;
+    font-family: Lato, Arial, sans-serif;
+    line-height: 1em;
+    padding: .25em;
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_footer\.scss}line{font-family:\000031}}
+.l-footer {
+  clear: both;
+  padding: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\000031}}
+.l-header {
+  padding: 1em 2em;
+  border-bottom: 1px dotted #ddd; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\000036}}
+.l-branding {
+  width: 80%;
+  float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\0000310}}
+  .l-branding .site-logo {
+    float: left;
+    margin-right: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\0000314}}
+    .l-branding .site-logo img {
+      display: block;
+      height: 60px;
+      width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\0000321}}
+  .l-branding .site-name {
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    font-family: Lato, Arial, sans-serif;
+    font-weight: 100; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\0000328}}
+    .l-branding .site-name a {
+      text-decoration: none;
+      color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\0000335}}
+.l-region--navigation {
+  float: right;
+  width: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\0000340}}
+#sidr-wrapper-0 {
+  height: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\0000343}}
+  #sidr-wrapper-0 a {
+    margin-top: 18px;
+    text-decoration: none;
+    display: block;
+    padding: 0 0 0 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    height: 25px;
+    width: 30px;
+    background: url(../images/menu_icon.png) center top no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\0000360}}
+.sidr-open #sidr-wrapper-0 a {
+  background-position: center bottom; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\0000366}}
+.l-region--header {
+  color: #fff;
+  font-weight: 100;
+  clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\0000371}}
+  .l-region--header .block {
+    padding: 2em 0 14em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\0000375}}
+  .l-region--header .block__content {
+    padding: 1em 2em;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-family: Lato, Arial, sans-serif; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\0000394}}
+  .l-header {
+    border: 0;
+    padding: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\0000399}}
+  .l-branding {
+    width: auto;
+    margin-top: -25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\00003104}}
+    .l-branding .site-logo img {
+      height: 100px;
+      width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\00003110}}
+    .l-branding .site-name {
+      height: 70px;
+      line-height: 70px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\00003116}}
+  .l-region--navigation {
+    width: auto;
+    background: #eee;
+    height: 50px;
+    float: none;
+    border-radius: 25px;
+    padding-right: .5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\00003127}}
+  .l-region--header .block {
+    padding: 2em 0 7em;
+    width: 40%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\00003132}}
+  .l-region--header .block__content {
+    font-size: 1.4em; } }
+@media (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\00003141}}
+  .l-branding {
+    margin-top: 0;
+    position: absolute;
+    left: 50%;
+    top: 1em;
+    margin-left: -79px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\00003149}}
+    .l-branding .site-logo img {
+      height: auto;
+      width: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\00003156}}
+  .admin-menu .l-branding {
+    top: 45px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_header\.scss}line{font-family:\00003160}}
+  .l-region--navigation {
+    margin-top: 37px;
+    font-size: 14px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_instagram\.scss}line{font-family:\000032}}
+#block-views-instagrams-block-1 .views-row {
+  float: left;
+  width: 33.3333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_instagram\.scss}line{font-family:\000036}}
+  #block-views-instagrams-block-1 .views-row a {
+    border: 1px solid #999;
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_instagram\.scss}line{font-family:\0000310}}
+    #block-views-instagrams-block-1 .views-row a:hover {
+      border-color: #f76640; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_instagram\.scss}line{font-family:\0000315}}
+  #block-views-instagrams-block-1 .views-row img {
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_location\.scss}line{font-family:\000031}}
+.location.vcard {
+  margin: 1em 0;
+  background: url(../images/location_icon.png) center 0 no-repeat;
+  min-height: 64px;
+  padding-top: 75px;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_location\.scss}line{font-family:\000038}}
+  .location.vcard .fn {
+    font-size: 1.5em;
+    font-family: Lato, Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_location\.scss}line{font-family:\0000313}}
+  .location.vcard .street-address {
+    line-height: 1em; }
+
+@media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_location\.scss}line{font-family:\0000321}}
+  .location.vcard {
+    padding-left: 75px;
+    padding-top: 8px;
+    text-align: left;
+    background-position: 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_location\.scss}line{font-family:\0000327}}
+    .location.vcard .fn {
+      font-size: 1.5em;
+      font-family: Lato, Arial, sans-serif; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\000031}}
+#superfish-1 {
+  height: 40px;
+  line-height: 30px;
+  float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\000036}}
+  #superfish-1 li.sf-depth-1 {
+    padding: 5px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\000039}}
+    #superfish-1 li.sf-depth-1 a.sf-depth-1 {
+      padding: 5px .75em;
+      color: #1aa489;
+      text-decoration: none;
+      border-radius: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\0000315}}
+      #superfish-1 li.sf-depth-1 a.sf-depth-1:hover {
+        color: #f76640;
+        text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\0000320}}
+      #superfish-1 li.sf-depth-1 a.sf-depth-1.active {
+        color: #f76640; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\0000325}}
+    #superfish-1 li.sf-depth-1.active-trail a.sf-depth-1 {
+      background: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\0000329}}
+    #superfish-1 li.sf-depth-1 ul {
+      display: none !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\0000335}}
+#block-superfish-2 {
+  height: 24px;
+  line-height: 24px;
+  float: right;
+  margin-right: .5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\0000341}}
+  #block-superfish-2 li.sf-depth-1 {
+    padding: 0 1.25em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\0000344}}
+    #block-superfish-2 li.sf-depth-1 a.sf-depth-1 {
+      padding: 0;
+      color: #999;
+      text-decoration: none;
+      background: url(../images/category_icons.png) 0 0 no-repeat;
+      overflow: hidden;
+      height: 24px;
+      line-height: 24px;
+      width: 20px;
+      text-indent: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\0000355}}
+      #block-superfish-2 li.sf-depth-1 a.sf-depth-1:hover, #block-superfish-2 li.sf-depth-1 a.sf-depth-1.active {
+        background-position: 0 -299px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\0000361}}
+    #block-superfish-2 li.sf-depth-1:nth-child(2) a {
+      background-position: -69px -56px;
+      width: 27px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\0000365}}
+      #block-superfish-2 li.sf-depth-1:nth-child(2) a:hover, #block-superfish-2 li.sf-depth-1:nth-child(2) a.active {
+        background-position: -69px -355px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\0000371}}
+    #block-superfish-2 li.sf-depth-1:nth-child(3) a {
+      background-position: -145px -119px;
+      width: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\0000375}}
+      #block-superfish-2 li.sf-depth-1:nth-child(3) a:hover, #block-superfish-2 li.sf-depth-1:nth-child(3) a.active {
+        background-position: -145px -418px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\0000381}}
+    #block-superfish-2 li.sf-depth-1:nth-child(4) a {
+      background-position: -210px -175px;
+      width: 43px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\0000385}}
+      #block-superfish-2 li.sf-depth-1:nth-child(4) a:hover, #block-superfish-2 li.sf-depth-1:nth-child(4) a.active {
+        background-position: -210px -474px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\0000391}}
+    #block-superfish-2 li.sf-depth-1:nth-child(5) a {
+      background-position: -284px -233px;
+      width: 21px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_navigation\.scss}line{font-family:\0000395}}
+      #block-superfish-2 li.sf-depth-1:nth-child(5) a:hover, #block-superfish-2 li.sf-depth-1:nth-child(5) a.active {
+        background-position: -284px -524px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_pinterest\.scss}line{font-family:\000031}}
+.pinit-hover {
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_pinterest\.scss}line{font-family:\000035}}
+.pinit-img {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_pinterest\.scss}line{font-family:\0000311}}
+  .pinit-img a {
+    display: block;
+    width: 32px;
+    height: 32px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_search\.scss}line{font-family:\000031}}
+.search-block-form {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_search\.scss}line{font-family:\000035}}
+  .search-block-form .form-item input[type="text"] {
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_search\.scss}line{font-family:\0000310}}
+  .search-block-form .form-actions {
+    position: absolute;
+    top: .25em;
+    right: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_search\.scss}line{font-family:\0000315}}
+    .search-block-form .form-actions input[type="submit"] {
+      padding: .5em .6em;
+      width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\000031}}
+.social-share {
+  margin: 16px auto;
+  text-align: center;
+  font-size: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\000036}}
+  .social-share a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin: 0 2.5px 5px;
+    background-image: url(../images/social_icons.png);
+    background-position: -104px -6px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-left: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\0000318}}
+    .social-share a.social-share-facebook {
+      background-position: -104px -6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\0000322}}
+    .social-share a.social-share-googleplus {
+      background-position: -155px -6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\0000326}}
+    .social-share a.social-share-pinterest {
+      background-position: -53px -6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\0000330}}
+    .social-share a.social-share-twitter {
+      background-position: -2px -6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\0000334}}
+    .social-share a:hover {
+      box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.85); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\0000339}}
+  .social-share:before, .social-share:after {
+    content: " ";
+    display: table; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\0000345}}
+  .social-share:after {
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\0000350}}
+.block--on-the-web {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\0000355}}
+  .block--on-the-web .block__content:before, .block--on-the-web .block__content:after {
+    content: " ";
+    display: table; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\0000361}}
+  .block--on-the-web .block__content:after {
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\0000366}}
+  .block--on-the-web .on-the-web {
+    display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\0000370}}
+  .block--on-the-web .on-the-web a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 0 2.5px 5px;
+    overflow: hidden;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\0000379}}
+    .block--on-the-web .on-the-web a:before {
+      color: #fff;
+      display: block;
+      width: 30px;
+      height: 30px;
+      position: relative;
+      z-index: 1;
+      padding: 0;
+      background: #000;
+      border-radius: 100%;
+      text-decoration: none;
+      -webkit-font-smoothing: antialiased;
+      text-align: center;
+      font-size: 14px;
+      line-height: 30px;
+      font-family: FontAwesome; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\0000398}}
+    .block--on-the-web .on-the-web a:hover:before {
+      box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.85); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\00003105}}
+  .block--on-the-web .on-the-web.otw-twitter a:before {
+    content: "\f099"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\00003111}}
+  .block--on-the-web .on-the-web.otw-facebook a:before {
+    content: "\f09a"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\00003117}}
+  .block--on-the-web .on-the-web.otw-pinterest a:before {
+    content: "\f231"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\00003123}}
+  .block--on-the-web .on-the-web.otw-google a:before {
+    content: "\f0d5"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\00003129}}
+  .block--on-the-web .on-the-web.otw-linkedin a:before {
+    content: "\f0e1"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\00003135}}
+  .block--on-the-web .on-the-web.otw-rss a:before {
+    content: "\f09e"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\00003141}}
+  .block--on-the-web .on-the-web.otw-myspace a:before {
+    content: "\f16d"; }
+
+@media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_social\.scss}line{font-family:\00003150}}
+  .social-share {
+    text-align: left; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_tabs\.scss}line{font-family:\000031}}
+.tabs {
+  border: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #f6f6f4;
+  padding: 3px;
+  font-size: 11px;
+  line-height: 1em;
+  text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_tabs\.scss}line{font-family:\0000311}}
+  .tabs li {
+    float: none;
+    margin: 0 0 3px;
+    background: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_tabs\.scss}line{font-family:\0000316}}
+    .tabs li:last-child {
+      margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_tabs\.scss}line{font-family:\0000321}}
+  .tabs a {
+    background: 0;
+    border-radius: 5px;
+    padding: 7px 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_tabs\.scss}line{font-family:\0000326}}
+    .tabs a.active {
+      background: rgba(0, 0, 0, 0.25);
+      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_tabs\.scss}line{font-family:\0000330}}
+      .tabs a.active:hover {
+        background: rgba(0, 0, 0, 0.35); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_tabs\.scss}line{font-family:\0000335}}
+    .tabs a:hover {
+      background: rgba(0, 0, 0, 0.05); }
+
+@media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_tabs\.scss}line{font-family:\0000343}}
+  .tabs li {
+    float: left;
+    margin: 0 3px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_tabs\.scss}line{font-family:\0000348}}
+  .tabs a {
+    background: 0;
+    border-radius: 5px;
+    padding: 5px 8px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_tags\.scss}line{font-family:\000031}}
+.field--name-field-tags {
+  border-radius: 3px;
+  background: #f0f6f6;
+  padding: 8px 8px 3px;
+  margin: 1em 0;
+  font-family: Lato, Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_tags\.scss}line{font-family:\000038}}
+  .field--name-field-tags a {
+    font-size: 1.2em;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+    background: #fff;
+    padding: .5em;
+    margin-bottom: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_tags\.scss}line{font-family:\0000318}}
+    .field--name-field-tags a:hover {
+      background: #cbdddd;
+      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_tags\.scss}line{font-family:\0000324}}
+  .field--name-field-tags:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+@media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_tags\.scss}line{font-family:\0000335}}
+  .field--name-field-tags .field__item {
+    float: left;
+    margin: 0 5px 5px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_tags\.scss}line{font-family:\0000340}}
+  .field--name-field-tags a {
+    font-size: 1em;
+    padding: .35em 1em;
+    display: inline-block;
+    margin: 0; } }
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/_tags\.scss}line{font-family:\0000353}}
+  .field--name-field-tags a {
+    font-size: .9em;
+    padding: .15em 1em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/ckeditor\/_ckeditor\.scss}line{font-family:\000032}}
+.cke_editable img {
+  width: 70px;
+  height: auto;
+  border: 2px dashed #ccc; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_archive\.scss}line{font-family:\000032}}
+.view-archive .views-summary {
+  font-family: Lato, Arial, sans-serif;
+  padding: 0 1em 0 0;
+  background: #f6f6f4;
+  border-radius: 3px;
+  color: #999;
+  font-size: .8em;
+  margin-bottom: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_archive\.scss}line{font-family:\0000311}}
+  .view-archive .views-summary a {
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline-block;
+    padding: .75em 0 .75em 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_archive\.scss}line{font-family:\0000318}}
+  .view-archive .views-summary:hover {
+    background: #fdf4f0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\000032}}
+.view-blog .views-row {
+  margin-bottom: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\000036}}
+.view-blog .views-field-field-post-date {
+  text-align: center;
+  font-family: Lato, Arial, sans-serif;
+  color: #999;
+  margin-bottom: .5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\0000313}}
+.view-blog .views-field-field-featured-image {
+  margin-bottom: .25em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\0000316}}
+  .view-blog .views-field-field-featured-image img {
+    display: block;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\0000322}}
+.view-blog .views-field-title {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  font-weight: 300;
+  font-family: Lato, Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\0000328}}
+  .view-blog .views-field-title a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 0;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\0000337}}
+.view-blog .button a {
+  display: block;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\0000344}}
+.view-display-id-block .views-field-title {
+  display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\0000346}}
+  .view-display-id-block .views-field-title a {
+    color: #f76640; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\0000351}}
+.view-display-id-block .views-field-field-post-date {
+  color: #777;
+  font-family: Lato, Arial, sans-serif;
+  font-weight: 300;
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  padding: .25em 0 .5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\0000361}}
+.view-display-id-block .views-field-body {
+  margin: 1rem 0;
+  display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\0000366}}
+.view-display-id-block .views-field-view-node {
+  margin-bottom: 4rem;
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\0000374}}
+.view-display-id-block_2 .views-row,
+.view-display-id-block_3 .views-row {
+  float: left;
+  width: 32%;
+  margin-right: 2%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\0000379}}
+  .view-display-id-block_2 .views-row.views-row-3,
+  .view-display-id-block_3 .views-row.views-row-3 {
+    margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\0000383}}
+  .view-display-id-block_2 .views-row.views-row-4,
+  .view-display-id-block_3 .views-row.views-row-4 {
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\0000387}}
+  .view-display-id-block_2 .views-row.views-row-last,
+  .view-display-id-block_3 .views-row.views-row-last {
+    margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\0000392}}
+.view-display-id-block_2 .views-field-title,
+.view-display-id-block_3 .views-field-title {
+  font-size: 1em;
+  line-height: 1.2em;
+  text-align: left;
+  background: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\0000398}}
+  .view-display-id-block_2 .views-field-title a,
+  .view-display-id-block_3 .views-field-title a {
+    padding-left: 0;
+    margin-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\00003105}}
+.view-display-id-block_2 .views-field-field-featured-image img,
+.view-display-id-block_3 .views-field-field-featured-image img {
+  width: 100%; }
+
+@media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\00003115}}
+  .view-blog .views-row {
+    margin-bottom: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\00003121}}
+  .block--views-blog-block-1 .views-row {
+    width: 46%;
+    float: left;
+    margin: 2%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\00003126}}
+    .block--views-blog-block-1 .views-row:nth-child(2n +1) {
+      clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\00003130}}
+    .block--views-blog-block-1 .views-row .views-field-title {
+      font-size: 1.4em;
+      line-height: 1.2em; } }
+@media (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\00003143}}
+  .view-display-id-block_2 .views-row,
+  .view-display-id-block_3 .views-row {
+    width: 15%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\00003146}}
+    .view-display-id-block_2 .views-row.views-row-3,
+    .view-display-id-block_3 .views-row.views-row-3 {
+      margin-right: 2%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\00003150}}
+    .view-display-id-block_2 .views-row.views-row-4,
+    .view-display-id-block_3 .views-row.views-row-4 {
+      clear: none; } }
+@media (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\00003161}}
+  .block--views-blog-block-1 .views-row {
+    width: 30%;
+    margin: 1.666666%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\00003165}}
+    .block--views-blog-block-1 .views-row:nth-child(2n +1) {
+      clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\00003169}}
+    .block--views-blog-block-1 .views-row:nth-child(3n +1) {
+      clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_blog\.scss}line{font-family:\00003173}}
+    .block--views-blog-block-1 .views-row .views-field-title {
+      font-size: 1.3em;
+      line-height: 1.2em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_search\.scss}line{font-family:\000032}}
+.page-search .node-teaser {
+  border-top: 1px dashed #ccc;
+  padding: 1em 0 0 0;
+  margin: 1em 0 0 0;
+  clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_search\.scss}line{font-family:\000038}}
+  .page-search .node-teaser .field--name-field-featured-image {
+    float: left;
+    margin: .25em 1em 0 0;
+    max-width: 35%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_shop\.scss}line{font-family:\000031}}
+.view-shop {
+  margin: 1em -10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_shop\.scss}line{font-family:\000034}}
+  .view-shop .masonry-item {
+    width: 100%;
+    border: 10px solid #fff;
+    min-height: 130px;
+    position: relative;
+    z-index: 2;
+    float: left;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_shop\.scss}line{font-family:\0000313}}
+    .view-shop .masonry-item:hover {
+      z-index: 3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_shop\.scss}line{font-family:\0000317}}
+    .view-shop .masonry-item .card-shop {
+      position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_shop\.scss}line{font-family:\0000321}}
+      .view-shop .masonry-item .card-shop:hover .card-shop-overlay {
+        opacity: 1;
+        transition: opacity .5s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_shop\.scss}line{font-family:\0000327}}
+      .view-shop .masonry-item .card-shop:hover .card-shop-image img {
+        transform: scale(1.02);
+        transition: all .2s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_shop\.scss}line{font-family:\0000335}}
+    .view-shop .masonry-item .card-shop-title {
+      color: #fff;
+      margin-bottom: 1em;
+      font-size: 1.1em;
+      line-height: 1.4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_shop\.scss}line{font-family:\0000342}}
+    .view-shop .masonry-item .card-shop-image {
+      overflow: hidden;
+      position: relative;
+      z-index: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_shop\.scss}line{font-family:\0000347}}
+      .view-shop .masonry-item .card-shop-image img {
+        transition: all .2s ease-in-out;
+        transform: scale(1);
+        display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_shop\.scss}line{font-family:\0000354}}
+    .view-shop .masonry-item .card-shop-overlay {
+      z-index: 2;
+      background: rgba(0, 0, 0, 0.8);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      padding: 2em;
+      opacity: 0;
+      transition: opacity .5s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_shop\.scss}line{font-family:\0000367}}
+      .view-shop .masonry-item .card-shop-overlay a {
+        text-decoration: none;
+        display: inline-block;
+        padding: .5em 1.5em;
+        border: 1px solid #1aa489; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_shop\.scss}line{font-family:\0000373}}
+        .view-shop .masonry-item .card-shop-overlay a:hover {
+          border-color: #f76640; }
+
+@media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_shop\.scss}line{font-family:\0000387}}
+  .view-shop .masonry-item {
+    width: 49%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_teasers\.scss}line{font-family:\000032}}
+.views-row .node-teaser {
+  border-top: 1px dashed #ccc;
+  padding: 1em 0 0 0;
+  margin: 1em 0 0 0;
+  clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/derekwalker\/Sites\/greengeeks\/saltproject\/sites\/all\/themes\/salt\/sass\/ds\/components\/views\/_teasers\.scss}line{font-family:\000038}}
+  .views-row .node-teaser .field--name-field-featured-image {
+    float: left;
+    margin: .25em 1em 0 0;
+    max-width: 35%; }

@@ -1,0 +1,93 @@
+.ds-3col-stacked-fluid.group-two-sidebars > .group-middle,
+.ds-3col-stacked-fluid.group-one-sidebar > .group-middle,
+.ds-3col-stacked-fluid > .group-middle {
+	width: 100%;
+	float: none;
+}
+
+.ds-3col-stacked-fluid > .group-left {
+	width: 100%;
+	float: none;
+}
+
+.ds-3col-stacked-fluid > .group-right {
+	width: 100%;
+	float: none;
+}
+
+
+// Phab -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($phab, true) {
+	.ds-3col-stacked-fluid.group-two-sidebars {
+		> .group-left {
+			@include grid-span(6, 1);
+		}
+
+		> .group-right {
+			@include grid-span(6, 7);
+		}
+	}
+}
+
+
+// Tab -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($tab, true) {
+	.ds-3col-stacked-fluid.group-two-sidebars {
+		> .group-middle {
+			@include grid-span(8, 5);
+		}
+
+		> .group-left {
+			@include grid-span(4, 1);
+		}
+
+		> .group-right {
+			@include grid-span(4, 1);
+			clear: left;
+		}
+	}
+
+	.ds-3col-stacked-fluid.group-one-sidebar.group-sidebar-left {
+		> .group-middle {
+			@include grid-span(8, 5);
+		}
+
+		> .group-left {
+			@include grid-span(4, 1);
+			clear: left;
+		}
+	}
+
+	.ds-3col-stacked-fluid.group-one-sidebar.group-sidebar-right {
+		> .group-middle {
+			@include grid-span(8, 1);
+		}
+
+		> .group-right {
+			@include grid-span(4, 9);
+			clear: none;
+		}
+	}
+}
+
+
+// Desk -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($desk, true) {
+	.ds-3col-stacked-fluid.group-two-sidebars {
+		> .group-middle {
+			@include grid-span(6, 4);
+		}
+
+		> .group-left {
+			@include grid-span(3, 1);
+		}
+
+		> .group-right {
+			@include grid-span(3, 10);
+			clear: none;
+		}
+	}
+}

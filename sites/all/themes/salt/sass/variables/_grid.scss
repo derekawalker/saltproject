@@ -1,0 +1,11 @@
+@import "singularitygs";
+
+// Breakpoints
+$phab: 480px;
+$tab: 768px;
+$desk: 1024px;
+$wide: 1024px;
+
+// Singularity Grid
+@include add-grid(12);
+@include add-gutter(1);

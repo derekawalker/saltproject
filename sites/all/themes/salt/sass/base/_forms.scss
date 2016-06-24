@@ -1,0 +1,68 @@
+input {
+	&[type="text"],
+	&[type="password"],
+	&[type="email"],
+	&[type="number"],
+	&[type="tel"] {
+		width: 100%;
+		max-width: 100%;
+		border-radius: $rad;
+		border: 1px solid #ccc;
+		padding: .5em .75em;
+		font-size: 1.4em;
+	}
+
+	&[type="submit"],
+	&[type="button"] {
+		border: 0;
+		width: 100%;
+		max-width: 100%;
+		display: block;
+		padding: 1em;
+		text-align: center;
+		color: #fff;
+		background: $pink;
+		border-radius: $rad;
+		text-decoration: none;
+		font-size: 1.25em;
+		margin: 1em .25em .5em 0;
+
+		&:hover {
+			background: $blue;
+			color: #fff;
+			box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .15);
+		}
+	}
+
+}
+
+textarea {
+	width: 100%;
+	border-radius: $rad;
+	border: 1px solid #e6e6e6;
+}
+
+select {
+	width: 100%;
+	border-radius: $rad;
+	border: 1px solid #e6e6e6;
+}
+
+.grippie {
+	display: none;
+}
+
+
+// Phab -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($phab, true) {
+	input {
+		&[type="submit"],
+		&[type="button"] {
+			width: auto;
+			display: inline-block;
+			padding: .5em 2em;
+		}
+
+	}
+}

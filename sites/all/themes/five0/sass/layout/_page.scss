@@ -1,0 +1,122 @@
+// Styles for base page layout
+.l-page {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 1.25em;
+}
+
+.l-main {
+	clear: both;
+}
+
+// Phab -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($phab, true) {
+	.l-page {
+		width: $phab;
+	}
+
+	.two-sidebars {
+		.l-region--sidebar-first {
+			@include grid-span(6, 1);
+		}
+
+		.l-region--sidebar-second {
+			@include grid-span(6, 7);
+		}
+	}
+}
+	
+// Tab --------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($tab, true) {
+	.l-page {
+		width: $tab;
+	}
+
+	.two-sidebars {
+		.l-content {
+			@include grid-span(8, 5);
+		}
+
+		.l-region--sidebar-first {
+			@include grid-span(4, 1);
+		}
+
+		.l-region--sidebar-second {
+			@include grid-span(4, 1);
+			clear: left;
+		}
+	}
+
+	.sidebar-first {
+		.l-content {
+			@include grid-span(8, 5);
+		}
+
+		.l-region--sidebar-first {
+			@include grid-span(4, 1);
+		}
+	}
+
+	.sidebar-second {
+		.l-content {
+			@include grid-span(8, 1);
+		}
+
+		.l-region--sidebar-second {
+			@include grid-span(4, 9);
+		}
+	}
+}
+
+// Desk -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($desk, true) {
+	.l-page {
+		width: $desk;
+	}
+
+	.two-sidebars {
+		.l-content {
+			@include grid-span(6, 4);
+		}
+
+		.l-region--sidebar-first {
+			@include grid-span(3, 1);
+		}
+
+		.l-region--sidebar-second {
+			@include grid-span(3, 10);
+			clear: none;
+		}
+	}
+
+	.sidebar-first {
+		.l-content {
+			@include grid-span(9, 4);
+		}
+
+		.l-region--sidebar-first {
+			@include grid-span(3, 1);
+		}
+	}
+	
+	.sidebar-second {
+		.l-content {
+			@include grid-span(9, 1);
+		}
+
+		.l-region--sidebar-second {
+			@include grid-span(3, 10);
+		}
+	}
+}
+
+// Wide -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($wide, true) {
+	.l-page {
+		width: $wide;
+	}
+}

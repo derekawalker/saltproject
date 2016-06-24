@@ -1,0 +1,165 @@
+.l-header {
+	padding: 1em 2em;
+	border-bottom: 1px dotted #ddd;
+}
+
+.l-branding {
+	width: 80%;
+	float: left;
+
+	.site-logo {
+		float: left;
+		margin-right: 1em;
+
+		img {
+			display: block;
+			height: 60px;
+			width: auto;
+		}
+	}
+
+	.site-name {
+		height: 40px;
+		line-height: 40px;
+		margin: 0;
+		font-family: $headerfont;
+		font-weight: 100;
+
+		a {
+			text-decoration: none;
+			color: #fff;
+		}
+	}
+}
+
+.l-region--navigation {
+	float: right;
+	width: 30px;
+}
+
+#sidr-wrapper-0 {
+	height: 25px;
+
+	a {
+		margin-top: 18px;
+		text-decoration: none;
+		display: block;
+		padding: 0 0 0 30px;
+		text-transform: uppercase;
+		text-align: center;
+		color: #fff;
+		overflow: hidden;
+		height: 25px;
+		width: 30px;
+		background: url(../images/menu_icon.png) center top no-repeat;
+	}
+}
+
+.sidr-open {
+	#sidr-wrapper-0 {
+		a {
+		background-position: center bottom;
+		}
+	}
+}
+
+.l-region--header {
+	color: #fff;
+	font-weight: 100;
+	clear: both;
+
+	.block {
+		padding: 2em 0 14em;
+	}
+
+	.block__content {
+		padding: 1em 2em;
+		background: rgba(0, 0, 0, .25);
+		border-radius: $rad;
+		font-size: 1.2em;
+		line-height: $headerlineheight;
+		font-family: $headerfont;
+	}
+}
+
+// Phab -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($phab, true) {
+
+}
+
+// Tab -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($tab, true) {
+	.l-header {
+		border: 0;
+		padding: 2em;
+	}
+
+	.l-branding {
+		width: auto;
+		margin-top: -25px;
+
+		.site-logo {
+			img {
+				height: 100px;
+				width: auto;
+			}
+		}
+
+		.site-name {
+			height: 70px;
+			line-height: 70px;
+		}
+	}
+
+	.l-region--navigation {
+		width: auto;
+		background: #eee;
+		height: 50px;
+		float: none;
+		border-radius: 25px;
+		padding-right: .5em;
+	}
+
+	.l-region--header {
+
+		.block {
+			padding: 2em 0 7em;
+			width: 40%;
+		}
+
+		.block__content {
+			font-size: 1.4em;
+		}
+	}
+}
+
+// Desk -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($desk, true) {
+	.l-branding {
+		margin-top: 0;
+		position: absolute;
+		left: 50%;
+		top: 1em;
+		margin-left: -79px;
+
+		.site-logo {
+			img {
+				height: auto;
+				width: auto;
+			}
+		}
+	}
+
+	.admin-menu .l-branding {
+		top: 45px;
+	}
+
+	.l-region--navigation {
+		margin-top: 37px;
+		font-size: 14px;
+	}
+}
+

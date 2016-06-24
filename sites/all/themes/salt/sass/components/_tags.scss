@@ -1,0 +1,58 @@
+.field--name-field-tags {
+	border-radius: $rad;
+	background: #f0f6f6;
+	padding: 8px 8px 3px;
+	margin: 1em 0;
+	font-family: $headerfont;
+
+	a {
+		font-size: 1.2em;
+		text-decoration: none;
+		display: block;
+		text-align: center;
+		border-radius: $rad;
+		background: #fff;
+		padding: .5em;
+		margin-bottom: 5px;
+
+		&:hover {
+			background: #cbdddd;
+			color: #fff;
+		}
+	}
+
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+// Phab -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($phab, true) {
+	.field--name-field-tags {
+		.field__item {
+			float: left;
+			margin: 0 5px 5px 0;
+		}
+
+		a {
+			font-size: 1em;
+			padding: .35em 1em;
+			display: inline-block;
+			margin: 0;
+		}
+	}
+}
+
+// Tablet -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($tab, true) {
+	.field--name-field-tags {
+		a {
+			font-size: .9em;
+			padding: .15em 1em;
+		}
+	}
+}

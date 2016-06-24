@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+  color: #222;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a,
+a:visited {
+	color: $teal;
+
+	&:hover {
+		color: $orange;
+	}
+}
+
+a.button,
+.button a {
+	display: block;
+	padding: 1em;
+	text-align: center;
+	color: #fff;
+	background: $pink;
+	border-radius: $rad;
+	text-decoration: none;
+	font-size: 1em;
+	margin: 1em .25em .5em 0;
+
+	&:hover {
+		background: $blue;
+		color: #fff;
+	}
+}
+
+
+// Phab -------------------------------------------------
+// ------------------------------------------------------
+@include breakpoint($phab, true) {
+	a.button,
+	.button a {
+		display: inline-block;
+		width: auto;
+		padding: .5em 2em;
+	}
+}
